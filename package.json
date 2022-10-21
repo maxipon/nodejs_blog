@@ -1,0 +1,27 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "I'm learning NodeJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --inspect main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxipon/nodejs_blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "maxipon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxipon/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/maxipon/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
